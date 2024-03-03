@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         // задача 1
-        var dog = 8;
+        var dog = 8.0;
         var cat = 3.6;
         var paper = 763789;
         System.out.println(dog);
@@ -10,28 +10,28 @@ public class Main {
         System.out.println(paper);
 
         // задача 2
-        var Dog = dog + 4;
-        var Cat = cat + 4;
-        var Paper = paper + 4;
-        System.out.println("Теперь значение dog " + Dog);
-        System.out.println("Теперь значение cat " + Cat);
-        System.out.println("Теперь значение paper " + Paper);
+        dog = dog + 4;
+        cat = cat + 4;
+        paper = paper + 4;
+        System.out.println("Теперь значение dog " + dog);
+        System.out.println("Теперь значение cat " + cat);
+        System.out.println("Теперь значение paper " + paper);
 
         // задача 3
-        var newDog = Dog - 3.5;
-        var newCat = Cat - 1.6;
-        var newPaper = Paper - 7639;
-        System.out.println("После вычитания значение dog " + newDog);
-        System.out.println("После вычитания значение cat " + newCat);
-        System.out.println("После вычитания значение paper " + newPaper);
+        dog = dog - 3.5;
+        cat = cat - 1.6;
+        paper = paper - 7639;
+        System.out.println("После вычитания значение dog " + dog);
+        System.out.println("После вычитания значение cat " + cat);
+        System.out.println("После вычитания значение paper " + paper);
 
         // задача 4
         var friend = 19;
         System.out.println(friend);
-        var Friend = friend + 2;
-        System.out.println(Friend);
-        var resultFriend = Friend/7;
-        System.out.println(resultFriend);
+        friend = friend + 2;
+        System.out.println(friend);
+        friend = friend/7;
+        System.out.println(friend);
 
         // задача 5
         var frog = 3.5;
@@ -61,6 +61,7 @@ public class Main {
         staff = staff+94;
         hours = staff*8;
         System.out.println("Если в компании работает " + staff +"  человек, то всего " + hours + " часов работы может быть поделено между сотрудниками");
-   // домашка выполнена
+
+        // домашка выполнена
     }
 }
