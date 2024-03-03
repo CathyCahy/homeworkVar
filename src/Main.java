@@ -10,17 +10,17 @@ public class Main {
         System.out.println(paper);
 
         // задача 2
-        var Dog = dog + 4;
-        var Cat = cat + 4;
-        var Paper = paper + 4;
-        System.out.println("Теперь значение dog " + Dog);
-        System.out.println("Теперь значение cat " + Cat);
-        System.out.println("Теперь значение paper " + Paper);
+        dog = dog + 4;
+        cat = cat + 4;
+        paper = paper + 4;
+        System.out.println("Теперь значение dog " + dog);
+        System.out.println("Теперь значение cat " + cat);
+        System.out.println("Теперь значение paper " + paper);
 
         // задача 3
-        var newDog = Dog - 3.5;
-        var newCat = Cat - 1.6;
-        var newPaper = Paper - 7639;
+        var newDog = dog - 3.5;
+        var newCat = cat - 1.6;
+        var newPaper = paper - 7639;
         System.out.println("После вычитания значение dog " + newDog);
         System.out.println("После вычитания значение cat " + newCat);
         System.out.println("После вычитания значение paper " + newPaper);
@@ -28,10 +28,10 @@ public class Main {
         // задача 4
         var friend = 19;
         System.out.println(friend);
-        var Friend = friend + 2;
-        System.out.println(Friend);
-        var resultFriend = Friend/7;
-        System.out.println(resultFriend);
+        friend = friend + 2;
+        System.out.println(friend);
+        friend = friend/7;
+        System.out.println(friend);
 
         // задача 5
         var frog = 3.5;
