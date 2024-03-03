@@ -18,12 +18,12 @@ public class Main {
         System.out.println("Теперь значение paper " + paper);
 
         // задача 3
-        var newDog = dog - 3.5;
-        var newCat = cat - 1.6;
-        var newPaper = paper - 7639;
-        System.out.println("После вычитания значение dog " + newDog);
-        System.out.println("После вычитания значение cat " + newCat);
-        System.out.println("После вычитания значение paper " + newPaper);
+        dog = dog - 3.5;
+        cat = cat - 1.6;
+        paper = paper - 7639;
+        System.out.println("После вычитания значение dog " + dog);
+        System.out.println("После вычитания значение cat " + cat);
+        System.out.println("После вычитания значение paper " + paper);
 
         // задача 4
         var friend = 19;
